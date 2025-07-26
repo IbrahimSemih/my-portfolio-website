@@ -29,6 +29,8 @@
   list-style: none;
   display: flex;
   gap: 2rem;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-links li button {
@@ -46,9 +48,63 @@
   color: #e94560;
 }
 
-/* Mobilde hamburger menü ekleyebilirsin, şimdilik basit responsive */
+/* Responsive Design */
 @media (max-width: 768px) {
+  .navbar .container {
+    padding: 1rem 1rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
   .nav-links {
     gap: 1rem;
+  }
+  
+  .nav-links li button {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .navbar .container {
+    padding: 0.8rem 1rem;
+  }
+  
+  .logo {
+    font-size: 1.3rem;
+  }
+  
+  .nav-links {
+    gap: 0.8rem;
+  }
+  
+  .nav-links li button {
+    font-size: 0.85rem;
+    padding: 0.5rem 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar .container {
+    padding: 0.8rem 0.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    font-size: 1.2rem;
+  }
+  
+  .nav-links {
+    gap: 0.5rem;
+    width: 100%;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+  
+  .nav-links li button {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.6rem;
   }
 }

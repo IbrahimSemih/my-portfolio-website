@@ -29,4 +29,46 @@
   .about-content p {
     margin-bottom: 1.5rem;
   }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-section {
+      padding: 3rem 1rem;
+      min-height: auto;
+    }
+    
+    .about-container {
+      max-width: 100%;
+    }
+    
+    .about-title {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .about-content {
+      font-size: 1rem;
+      line-height: 1.6rem;
+    }
+    
+    .about-content p {
+      margin-bottom: 1rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .about-section {
+      padding: 2rem 0.5rem;
+    }
+    
+    .about-title {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    
+    .about-content {
+      font-size: 0.95rem;
+      line-height: 1.5rem;
+    }
+  }
   
