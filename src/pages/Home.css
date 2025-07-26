@@ -1,0 +1,106 @@
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* solda hizalama */
+    gap: 4rem;
+    padding: 3rem 2rem;
+    max-width: 1100px;
+    margin: 0 auto; /* ortalamak için */
+    text-align: left;
+  }
+  
+  .image-area {
+    flex-shrink: 0;
+  }
+  
+  .profile-image {
+    width: 320px;       /* daha büyük */
+    height: 320px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 30px #e94560cc;
+    border: 6px solid #e94560;
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .text-area {
+    max-width: 600px;
+  }
+  
+  .text-area h1 {
+    font-size: 3.2rem;
+    margin-bottom: 0.5rem;
+    color: #e94560;
+    line-height: 1.1;
+    font-weight: 700;
+  }
+  
+  .text-area h2 {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+    color: #f5f5f5;
+    line-height: 1.2;
+    font-weight: 600;
+  }
+  
+  .text-area p {
+    font-size: 1.1rem;
+    color: #ccc;
+    margin-bottom: 1.8rem;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+  
+  .scroll-down {
+    font-size: 2.2rem;
+    color: #e94560;
+    cursor: pointer;
+    animation: bounce 2s infinite;
+    user-select: none;
+  }
+  
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0);}
+    50% { transform: translateY(10px);}
+  }
+  
+  /* Responsive: mobilde alt alta ve ortalı */
+  
+  @media (max-width: 768px) {
+    .home-content {
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      gap: 2rem;
+    }
+  
+    .profile-image {
+      width: 280px;
+      height: 280px;
+      border-width: 5px;
+    }
+  
+    .text-area {
+      max-width: 100%;
+    }
+    
+    .text-area h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.4rem;
+    }
+    
+    .text-area h2 {
+      font-size: 1.6rem;
+      margin-bottom: 0.6rem;
+    }
+    
+    .text-area p {
+      font-size: 1rem;
+      line-height: 1.4;
+    }
+  }
+  

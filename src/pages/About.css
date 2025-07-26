@@ -1,0 +1,32 @@
+.about-section {
+    background-color: #0d1117;
+    color: #ffffff;
+    min-height: 100vh;
+    padding: 4rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #ec4899; /* pembe alt çizgi */
+    display: inline-block;
+  }
+  
+  .about-content {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+  
+  .about-content p {
+    margin-bottom: 1.5rem;
+  }
+  
