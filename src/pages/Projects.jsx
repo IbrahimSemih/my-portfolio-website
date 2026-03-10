@@ -14,6 +14,14 @@ function Projects() {
     },
     {
       id: 2,
+      title: 'SmartStock',
+      description:
+        'SmartStock is a stock and inventory management app I built for small businesses and retail, developed with Flutter. It offers product and category management, barcode scanning, stock in/out tracking, low-stock alerts, reporting, and PDF/Excel export. The app uses Firebase Authentication for secure login and supports multiple languages (TR/EN). With SQLite for local storage, mobile barcode scanning, and printable reports, it aims to bring daily inventory operations into a single app.',
+      playStoreLink:
+        'https://play.google.com/store/apps/details?id=com.devisb.stock_management',
+    },
+    {
+      id: 3,
       title: 'Analysis and Classification System of Lateral Transfer Documents (PDF OCR + NLP-Based)',
       description: 'It converts academic and official documents in PDF format into text using OCR technology and automatically classifies the document type using natural language processing. Depending on the document type, it extracts critical information such as student name, number, grade point average, and disciplinary status, and structures it in JSON format. The project includes text extraction using Tesseract OCR, content analysis using advanced regex and an OpenAI-based NLP model, and data processing steps such as GPA conversion. Results are saved to a file for easy reporting and integration. This system, developed for academic document management and automation, provides high accuracy and flexibility.',
     },

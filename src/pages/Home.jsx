@@ -1,4 +1,4 @@
-import profilePic from '../assets/profile2.jpg';
+import profilePic from '../assets/profile1.jpeg';
 import './Home.css';
 
 function Home({ scrollToNext }) {

@@ -71,7 +71,7 @@ function App() {
       </section>
 
       <footer className="footer">
-        <p>© 2025 Ibrahim Semih Bakir. All rights reserved.</p>
+        <p>© 2026 Ibrahim Semih Bakir. All rights reserved.</p>
       </footer>
     </>
   );
